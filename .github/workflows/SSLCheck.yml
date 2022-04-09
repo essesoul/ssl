@@ -34,7 +34,7 @@ jobs:
         npm run build
         cd CheckSSL
         chmod +x checker.sh
-        ./checker.sh community.dtnetwork.top tool.dtnetwork.top status.dtnetwork.top blog.dtnetwork.top ariang.dtnetwork.top base64.dtnetwork.top fast.dtnetwork.top ssl.dtnetwork.top ssl.dtnet.work img-community.dtnet.work k6o.top www.k6o.top d6t.top www.d6t.top mail.essesoul.top mail.dtcncloud.com
+        ./checker.sh community.dtnetwork.top tool.dtnetwork.top status.dtnetwork.top blog.dtnetwork.top ariang.dtnetwork.top base64.dtnetwork.top fast.dtnetwork.top ssl.dtnetwork.top ssl.dtnet.work img-community.dtnet.work k6o.top www.k6o.top d6t.top www.d6t.top mail.essesoul.top mail.dtcncloud.com 
         cp -rf ./output/ct.json ../public/ct.json
         echo "ssl.dtnetwork.top" > ../public/CNAME
         
