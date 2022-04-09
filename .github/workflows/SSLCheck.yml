@@ -1,4 +1,4 @@
-name: ChenYFanのSSLCheck
+name: DTNETWORK-SSLCheck
 
 on: 
   push:
