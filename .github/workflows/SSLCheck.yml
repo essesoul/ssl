@@ -30,13 +30,13 @@ jobs:
     - name: Install & Build
       run: |
         npm i
-        git clone https://github.com/ChenYFan/CheckSSL --depth=2
+        git clone https://github.com/essesoul/CheckSSL --depth=2
         npm run build
         cd CheckSSL
         chmod +x checker.sh
         ./checker.sh k6o.top www.k6o.top community.dtnetwork.top tool.dtnetwork.top status.dtnetwork.top blog.dtnetwork.top fast.dtnetwork.top img-community.dtnet.work d6t.top www.d6t.top mail.essesoul.top mail.dtcncloud.com
         cp -rf ./output/ct.json ../public/ct.json
-        echo "ssl.cyfan.top" > ../public/CNAME
+        echo "ssl.dtnetwork.top" > ../public/CNAME
         
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
